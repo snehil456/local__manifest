@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<!-- fetching sources -->      
+
+        <remote name="snehil456"
+                fetch="https://github.com/"snehil456" />
+      
+<!-- device trees -->
+
+        <project path="device/realme/r5x" name="device_realme_r5x" remote="snehil456" revision="pos" />
+        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="snehil456" revision="Trinket" />
+        <project path="kernel/realme/r5x" name="kernel_realme_r5x" remote="snehil456" revision="OSS" clone-depth="1" />
+        <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="snehil456" revision="v4a" clone-depth="1" />     
+</manifest>
